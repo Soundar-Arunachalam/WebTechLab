@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUP</title>
+    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <link rel = "icon" href = "app/assets/image.png" type = "image/x-icon">
+    <link rel = "stylesheet" href="css/index.css"
+</head>
+<body>
+     <div ng-app = "cup">
+        <section class = "navigation-section">
+        <nav class = "navbar">
+            <ul>
+                <p><a href="#/!"><img class= "logo"  alt = "company-logo" src = "app/assets/image.png" /></a></p>
+                <li><a href="#!company-wise-strategy">Company Wise Strategy</a></li>
+                <li><a href="Hackathon Experiences">Hackathon Experiences</a></li>
+                <li><a href="Mock Interview">Mock Interview</a></li>
+                <li><a href="1-Day 1-Concept challenge">1-Day 1-Concept challenge</a></li>
+                <li><a href="Login">Login</a></li>
+                <div ng-view></div>
+            </ul>
+        </nav>
+        </section>
+     </div>
+    <script src = "./app/app.js">
+
+    </script>
+</body>
+</html>
