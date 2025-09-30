@@ -1,1 +1,14 @@
 
+/app
+    /scripts
+            /controllers
+            /directives
+            /services
+            /filters
+            app.js
+    /views
+    /styles
+    /img
+    /bower_components
+    index.html
+bower.json
